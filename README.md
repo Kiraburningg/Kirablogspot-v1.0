@@ -14,6 +14,11 @@ Created using :
 - Bootstrap
 - mysql (database)
 
+Database name: kirablogspotdb
+
+Table name:
+- posts
+- users
 
 
 Link of the site: http://kirablogspot.x10host.com/

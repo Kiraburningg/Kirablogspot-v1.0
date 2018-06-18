@@ -83,7 +83,9 @@
 			<a href="<?php echo ROOT_URL . 'landing-page.php'; ?>" class="btn btn-success btn-sm">Back</a>
 			<h2><?php echo $post['post_title']; ?></h2>
 			<small>Created on <?php echo $post['created_at']; ?> by <?php echo $post['post_author']; ?></small>
-			<p><?php echo $post['post_body']; ?></p>
+			<div id="word-wrap">
+			<?php echo $post['post_body']; ?>
+			</div>
 			<hr>
 			<a class="btn btn-secondary" href="<?php echo ROOT_URL; ?>editpost.php?id=<?php echo $post['post_id']; ?>">Edit Post</a>
 			<form class="float-right" method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">

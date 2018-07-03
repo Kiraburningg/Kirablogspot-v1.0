@@ -4,7 +4,6 @@ Functionality
 - Has user login system.
 - Can Add, Update, Delete post.
 - Responsive Web Design.
-- User-friendly UI/UX.
 
 Created using :
 - HTML5
